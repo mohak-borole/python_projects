@@ -1,2 +1,3 @@
 # python_projects
-i have created this repository while i started learning python frameworks
+I created this repository while I started learning python frameworks
+I will include projects based on Flask , Django and some Machine Learning projects which make use of TensorFlow library 
