@@ -1,13 +1,16 @@
 import random
 
-def get_choices():
+def get_choices():# This function takes user input and selects a option for computer too.
     player_choice = input("Enter a choice (rock , paper , scissor): ")
+    
     options = ["rock","paper","scissor"]
     computer_choice = random.choice(options) 
+    
     choices = {"player" : player_choice , "computer" : computer_choice}
     return choices
 
-def check_win(player , computer):
+
+def check_win(player , computer):# This function checks if the player wins or looses.
     print(f"You choose {player} computer chose {computer}")
 
     if(player == computer):
@@ -30,8 +33,7 @@ def check_win(player , computer):
         else:
             return "Rock crushes Scissors! You lose."
 
-
-choices = get_choices()
-result = check_win(choices["player"] , choices["computer"])
+choices = get_choices() #Choices are taken.
+result = check_win(choices["player"] , choices["computer"]) #result is set using check_win;.l
 
 print(result)
