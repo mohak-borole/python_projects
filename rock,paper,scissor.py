@@ -1,3 +1,8 @@
+'''
+This was a project that i did for revision of my python basics
+It is a rock , paper , scissor game
+'''
+
 import random
 
 def get_choices():  # This function takes user input and selects a option for computer too.
