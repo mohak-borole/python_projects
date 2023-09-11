@@ -1,0 +1,8 @@
+The basic and most wide spread way of making a machine learning model is a descision tree.
+
+<h1>Pandas</h1>
+Pandas is the most prefered python library to read, manipulate any dataset.
+Dataframe, The basic format of storage of data using pandas, is like a Excel sheet or a Table in SQL.
+> pandas.read_csv("File path") is the method to access the data in form of a Dataframe using pandas.
+> df.describe() : it describes the data and provides various values like 
+        the min, max, average, etc.for the columns in the dataframes
