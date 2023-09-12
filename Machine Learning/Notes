@@ -13,8 +13,9 @@ To select Features from the given data , a array of selected features is passed 
 Example: Features= [array]
          x = df[Features]
 > df.head() : is used to print the few upper rows of the dataset 
+> df.column : gives the names of all columns in the dataframe.
 
-
+----------------------------------------------------------------------------------------------------
 **scikit-learn**
 
 While writing in a code, scikit-learn is written as sklearn.
@@ -26,3 +27,14 @@ The steps to building and using a model are:
 #Predict: Just what it sounds like
 #Evaluate: Determine how accurate the model's predictions are.
 
+To select the DecisionTreeRegression model using scikit-learn
+> model_name = DecisionTreeRegressor(random_state=1)  "Model Defining"
+> modelname.fit(Input_data , Prediction_data)  "Model Fitting"
+
+Specifying random_state to get results in each run. We can use any number for this. It is a good practice.
+
+----------------------------------------------------------------------------------------------------
+
+**Model Validation**
+
+The Method of predicting values based on training data and matching it with the value in the target value in the testing data is not a good method.
