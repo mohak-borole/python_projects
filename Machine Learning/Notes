@@ -38,3 +38,15 @@ Specifying random_state to get results in each run. We can use any number for th
 **Model Validation**
 
 The Method of predicting values based on training data and matching it with the value in the target value in the testing data is not a good method.
+There are many metrices to evalualte a models quality. One of this is MEAN ABSOLUTE ERROR (MAE).
+
+Prediction error for house price prediction Example
+error = actual - predicted
+
+To calculate mean ABSOLUTE error
+> from sklearn.metrices import mean_absolute_error
+> 
+> predicted_value = model_name.predict(Input_data)
+> mean_absolute_error(Output , predicted_value)
+
+
