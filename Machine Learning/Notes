@@ -1,8 +1,28 @@
 The basic and most wide spread way of making a machine learning model is a descision tree.
 
-<h1>Pandas</h1>
+**Pandas**
+
 Pandas is the most prefered python library to read, manipulate any dataset.
 Dataframe, The basic format of storage of data using pandas, is like a Excel sheet or a Table in SQL.
 > pandas.read_csv("File path") is the method to access the data in form of a Dataframe using pandas.
 > df.describe() : it describes the data and provides various values like 
         the min, max, average, etc.for the columns in the dataframes
+> df = df.dropna(axis = 0) : is used to drop         null values in the data frame.
+A Single data column can be selected from the dataframe using dot-notation. Ex: y = df.column_name
+To select Features from the given data , a array of selected features is passed to the df[] dataframe.
+Example: Features= [array]
+         x = df[Features]
+> df.head() : is used to print the few upper rows of the dataset 
+
+
+**scikit-learn**
+
+While writing in a code, scikit-learn is written as sklearn.
+
+The steps to building and using a model are:
+
+#Define: What type of model will it be? A decision tree? Some other type of model? Some other parameters of the model type are specified too.
+#Fit: Capture patterns from provided data. This is the heart of modeling.
+#Predict: Just what it sounds like
+#Evaluate: Determine how accurate the model's predictions are.
+
