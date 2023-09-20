@@ -49,4 +49,37 @@ To calculate mean ABSOLUTE error
 > predicted_value = model_name.predict(Input_data)
 > mean_absolute_error(Output , predicted_value)
 
+In-Sample data points
+this method have a measure problem when we give a model real-world data.
 
+Example
+Imagine that, in the large real estate market, door color is unrelated to home price.
+However, in the sample of data you used to build the model, all homes with green doors were very expensive. The model's job is to find patterns that predict home prices, so it will see this pattern, and it will always predict high prices for homes with green doors.
+Since this pattern was derived from the training data, the model will appear accurate in the training data.
+But if this pattern Imagine that, in the large real estate market, door color is unrelated to home price.
+
+However, in the sample of data you used to build the model, all homes with green doors were very expensive. The model's job is to find patterns that predict home prices, so it will see this pattern, and it will always predict high prices for homes with green doors.
+
+Since this pattern was derived from the training data, the model will appear accurate in the training data.
+
+But if this pattern doesn't hold when the model sees new data, the model would be very inaccurate when used in practice.
+
+doesn't hold when the model sees new data, the model would be very inaccurate when used in practice.
+
+the models practical value of accuracy comes from predicting values of new data. the data that was not useds to build the model.
+THIS IS CALLED VALIDATION OF DATA.
+
+WE use "train_test_split" function of scikit-learn library
+
+>from sklearn.model_selection import train_test_split
+>train_x , train_y , test_x , test_y = train_test_split( x , y , random_state = 0)
+>model_name = DecisionTreeRegressor()
+>model_name.fit(train_x , train_y)
+>predicted_value = model_name.predict(test_x)
+>print(mean_absolute_error(test_y , predicted_value))
+
+----------------------------------------------------------------------------------------------------
+
+***UNDERFITTING AND OVERFITTING***
+
+In a decision tree algorithm , the 
