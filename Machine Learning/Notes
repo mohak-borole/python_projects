@@ -82,4 +82,11 @@ WE use "train_test_split" function of scikit-learn library
 
 ***UNDERFITTING AND OVERFITTING***
 
-In a decision tree algorithm , the 
+In a decision tree algorithm , the depth of tree is the number of splits the tree went through before it reached to the final prediction.
+
+if we increase the splits of data to a large extent(10 - 20 splits), the tree matches the training data nearly perfectly but, it fails in matching for new freah data.
+this phenomenon is called OVERFITTING.
+
+Similarly if a decision tree is too shallow (2-4 splits) ,The tree fails to predict values even for training data.
+this is called UNDERFITTING.
+
