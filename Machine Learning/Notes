@@ -104,3 +104,9 @@ MOre Leaves means less underfitting.
     mae = mean_absolute_error(val_y, preds_val)
     return(mae)
 
+# Overfitting: capturing spurious patterns that won't recur in the future, leading to less accurate predictions, or
+# Underfitting: failing to capture relevant patterns, again leading to less accurate predictions.
+
+----------------------------------------------------------------------------------------------------
+***RANDOM FOREST***
+
