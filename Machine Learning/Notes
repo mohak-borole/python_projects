@@ -110,3 +110,8 @@ MOre Leaves means less underfitting.
 ----------------------------------------------------------------------------------------------------
 ***RANDOM FOREST***
 
+Decision tree has a limitation, i.e. you can have a deep tree which might result in overfitted model resulting in incampatibility with real world data.
+Where as on the other hand you can have a shallow tree which result in poor predictions and fails to capture all distinctions in the dataset.
+
+To overcome this, we use Random Forest Technique. In Random Forest we use multiple trees and make a prediction by averaging the predictions of each component tree.
+
