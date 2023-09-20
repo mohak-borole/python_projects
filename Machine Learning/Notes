@@ -90,3 +90,17 @@ this phenomenon is called OVERFITTING.
 Similarly if a decision tree is too shallow (2-4 splits) ,The tree fails to predict values even for training data.
 this is called UNDERFITTING.
 
+In decision tree algorithm , there are some methods to control the depth of tree.
+the "max_leaf_nodes" is a argument to control OVERFITTING and UNDERFITTING.
+MOre Leaves means less underfitting.
+
+>from sklearn.metrics import mean_absolute_error
+>from sklearn.tree import DecisionTreeRegressor
+
+>def get_mae(max_leaf_nodes, train_X, val_X, train_y, val_y):
+    model = DecisionTreeRegressor(max_leaf_nodes=max_leaf_nodes, random_state=0)
+    model.fit(train_X, train_y)
+    preds_val = model.predict(val_X)
+    mae = mean_absolute_error(val_y, preds_val)
+    return(mae)
+
