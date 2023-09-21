@@ -115,3 +115,6 @@ Where as on the other hand you can have a shallow tree which result in poor pred
 
 To overcome this, we use Random Forest Technique. In Random Forest we use multiple trees and make a prediction by averaging the predictions of each component tree.
 
+;
+
+
