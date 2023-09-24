@@ -104,7 +104,7 @@ MOre Leaves means less underfitting.
     mae = mean_absolute_error(val_y, preds_val)
     return(mae)
 
-# Overfitting: capturing spurious patterns that won't recur in the future, leading to less accurate predictions, or
+# Overfitting: capturing spurious patte.rns that won't recur in the future, leading to less accurate predictions, or
 # Underfitting: failing to capture relevant patterns, again leading to less accurate predictions.
 
 ----------------------------------------------------------------------------------------------------
@@ -114,4 +114,4 @@ Decision tree has a limitation, i.e. you can have a deep tree which might result
 Where as on the other hand you can have a shallow tree which result in poor predictions and fails to capture all distinctions in the dataset.
 
 To overcome this, we use Random Forest Technique. In Random Forest we use multiple trees and make a prediction by averaging the predictions of each component tree.
-
+..
