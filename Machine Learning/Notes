@@ -3,6 +3,8 @@ The basic and most wide spread way of making a machine learning model is a desci
 **Pandas**
 
 Pandas is the most prefered python library to read, manipulate any dataset.
+
+
 Dataframe, The basic format of storage of data using pandas, is like a Excel sheet or a Table in SQL.
 > pandas.read_csv("File path") is the method to access the data in form of a Dataframe using pandas.
 > df.describe() : it describes the data and provides various values like 
@@ -114,3 +116,4 @@ Decision tree has a limitation, i.e. you can have a deep tree which might result
 Where as on the other hand you can have a shallow tree which result in poor predictions and fails to capture all distinctions in the dataset.
 
 To overcome this, we use Random Forest Technique. In Random Forest we use multiple trees and make a prediction by averaging the predictions of each component tree.
+..
