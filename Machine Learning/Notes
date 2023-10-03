@@ -1,3 +1,5 @@
+<><><><><><><INTRO TO MACHINE LEARNING><><><><><><>
+
 The basic and most wide spread way of making a machine learning model is a descision tree.
 
 **Pandas**
@@ -127,3 +129,7 @@ RandomForest Model Example
 >print(mean_absolute_error(val_y, melb_preds))
 
 ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+<><><><><><><INTERMIDIATE MACHINE LEARNING><><><><><><>
+
+
