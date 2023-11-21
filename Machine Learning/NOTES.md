@@ -10,8 +10,8 @@ Dataframe, The basic format of storage of data using pandas, is like a Excel she
 ### Basic Operations with Pandas
 
 **Reading Data:**
-"""
+""
 import pandas as pd
 
 df = pd.read_csv("File Path")
-"""
+""
