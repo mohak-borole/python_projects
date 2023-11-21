@@ -11,5 +11,5 @@ Dataframe, The basic format of storage of data using pandas, is like a Excel she
 
 ***Reading Data:***
 '''python
-    import pandas as pd 
-    df = pd.read_csv("File Path")   #is the method to access the data in form of a Dataframe using pandas.
+import pandas as pd 
+df = pd.read_csv("File Path")   #is the method to access the data in form of a Dataframe using pandas.
